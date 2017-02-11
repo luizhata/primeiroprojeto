@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Página de saudação
+Route::get('/saudacao', function(){
+  return view('saudacao');
+});
